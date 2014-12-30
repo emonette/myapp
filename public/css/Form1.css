@@ -1,0 +1,39 @@
+body {
+  padding-top: 50px;
+  
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+form {
+	padding: 10px;
+	margin: 50px;
+	display:block;
+	width: 100px;
+}
+
+.starter-template {
+	background-color:yellow;
+}
+
+img {
+
+	position: absolute; 
+	top: 280px;
+left: 40%; 
+width: 500px; 
+padding-bottom: 100px;
+}
+
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
